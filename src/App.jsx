@@ -9,6 +9,7 @@ import NavbarArea from './Component/Navbar'
 import Hero from './Component/Hero'
 import Icon from './Component/Icon'
 import Card from './Component/Card'
+import Email from './Component/Email'
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
 
         {/* <Route index element={<Hero/>}/> */}
         {/* <Route index element={<Icon/>} /> */}
-        <Route index element={<Card/>}/>
+        {/* <Route index element={<Card/>}/> */}
+        <Route index element={<Email/>} />
         
 
         <Route path='/About' element={<About/>}/>
