@@ -8,6 +8,7 @@ import Error from './Component/Header/Error'
 import NavbarArea from './Component/Navbar'
 import Hero from './Component/Hero'
 import Icon from './Component/Icon'
+import Card from './Component/Card'
 
 function App() {
 
@@ -19,7 +20,8 @@ function App() {
         <Route path='/' element={<NavbarArea/>}>
 
         {/* <Route index element={<Hero/>}/> */}
-        <Route index element={<Icon/>} />
+        {/* <Route index element={<Icon/>} /> */}
+        <Route index element={<Card/>}/>
         
 
         <Route path='/About' element={<About/>}/>
