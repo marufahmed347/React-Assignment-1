@@ -24,7 +24,7 @@ function Hero() {
           </div>
 
           <div className="sm:flex-2 hidden sm:flex">
-            <img className="" src="img.png" alt="" />
+            <img className="object-cover" src="img.png" alt="" />
           </div>
         </div>
       </section>
