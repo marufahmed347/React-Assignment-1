@@ -12,15 +12,15 @@ function Icon() {
 
   return (
     <>
-        <section className='max-w-[1400px] mx-auto py-12 lg:px-80 px-6 bg-[#07292F]'>
+        <section className='py-12 bg-[#07292F] max-w-[1440px]'>
             <div className='mb-5'>
                 <p className='text-center text-secondery'>OUR TRUSTED PARTNERS </p>
             </div>
 
-            <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 '>
+            <div className='flex justify-center flex-wrap gap-5 w-full px-4'>
                 {
                     IconData.map((e)=>(
-                        <div key={e.id} className=''>
+                        <div key={e.id}>
                             <img className='object-cover h-auto ' src={e.img} alt="" />
                         </div>
                     ))

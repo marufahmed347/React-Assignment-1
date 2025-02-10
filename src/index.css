@@ -11,6 +11,7 @@
 
 body{
     @apply font-workSans
+    bg-primary
 }
 
 .active{

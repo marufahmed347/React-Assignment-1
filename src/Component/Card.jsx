@@ -22,7 +22,7 @@ function Card() {
 
   return (
     <>
-    <section className="max-w-[1400px] mx-auto mb-10 py-10 px-6 bg-primary">
+    <section className="max-w-[1400px] mx-auto mb-5 py-10 px-6 bg-primary">
     <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 !p-5'>
         {
             CardInfo.map((card)=>(

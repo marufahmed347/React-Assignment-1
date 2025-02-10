@@ -23,20 +23,16 @@ function Email() {
 
   return (
     <>
-        <section className='bg-primary max-w-[1400px]'>
+        <section>
 
-           <div className=' grid grid-cols-12 bg-[#07292F] sm:mx-10 mx-5 rounded-xl'>
+           <div className=' sm:bg-[url("/img41.jpg")] bg-no-repeat bg-cover sm:bg-left bg-[url("/img44.jpg")] bg-bottom sm:mx-10 mx-5 rounded-xl '>
 
-           <div className='grid sm:col-span-4 col-span-12'>
-                <img src="mg.png" alt="" />
-            </div>
+            <div className='sm:p-20 p-5 lg:ml-100 md:ml-50'>
+                <h1 className='text-2xl sm:text-3xl text-white mb-1 font-Montserrat'>Train your aiDR on your...</h1>
+                <h1 className='text-secondery text-2xl sm:text-3xl font-Montserrat italic'>prefered email st|</h1>
+                <p className='text-gray-500 text-lg mb-8 mt-5 sm:w-sm'>You’re in control. Train your aiDR on elements of your Marketing strategy.</p>
 
-            <div className='grid sm:col-span-8 col-span-12  sm:p-20 p-5'>
-                <h1 className='text-2xl sm:text-3xl text-white mb-1'>Train your aiDR on your...</h1>
-                <h1 className='text-secondery text-2xl sm:text-3xl'>prefered email st|</h1>
-                <p className='text-gray-500 text-lg md:w-90 mb-8 mt-5'>You’re in control. Train your aiDR on elements of your Marketing strategy.</p>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-5 ">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 sm:mr-20">
                     {
                         EmailData.map((even)=>(
                             <div key={even.id} className='flex gap-1 items-center'>

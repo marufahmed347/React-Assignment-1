@@ -6,10 +6,8 @@ import Customers from './Component/Header/Customers'
 import Solutions from './Component/Header/Solutions'
 import Error from './Component/Header/Error'
 import NavbarArea from './Component/Navbar'
-import Hero from './Component/Hero'
-import Icon from './Component/Icon'
-import Card from './Component/Card'
-import Email from './Component/Email'
+import Hablu from './Component/Hablu'
+
 
 function App() {
 
@@ -20,10 +18,7 @@ function App() {
 
         <Route path='/' element={<NavbarArea/>}>
 
-        {/* <Route index element={<Hero/>}/> */}
-        {/* <Route index element={<Icon/>} /> */}
-        {/* <Route index element={<Card/>}/> */}
-        <Route index element={<Email/>} />
+        <Route index element={<Hablu />}/>
         
 
         <Route path='/About' element={<About/>}/>
