@@ -5,7 +5,7 @@ import Card from './Card';
 import Email from './Email';
 import Slider from './Slider';
 import Improvement from './Improvement';
-
+import Footer from './Footer';
 
 function Hablu() {
   return (
@@ -17,7 +17,7 @@ function Hablu() {
     <Email/>
     <Slider/>
     <Improvement/>
-    
+    <Footer/>
     </div>
     </>
   )
