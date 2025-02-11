@@ -18,7 +18,7 @@ function Hero() {
             </p>
             <button className="bg-secondery text-black px-[18px] py-[16px] rounded-full flex flex-row items-center gap-1 cursor-pointer hover:shadow-[0px_0px_10px] hover:shadow-secondery/70 mt-4">
               Sign Up for the Beta
-              <img src="img2.png" alt="" />
+              <img src="img2.png" alt="" />z
             </button>
           </div>
 

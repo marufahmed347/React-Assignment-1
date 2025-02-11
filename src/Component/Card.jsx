@@ -4,16 +4,19 @@ function Card() {
 
     const CardInfo =[
         {
+            id:1,
             imgSrc:"img11.png",
             heading:"You’re in Control",
             para:"aiDRs operate based on your rules. You guide the machine, the aiDRs execute the work."
         },
         {
+            id:2,
             imgSrc:"img12.png",
             heading:"Infinitely Scalable",
             para:"Train an aiDR on a patch. When you are happy with the results, scale it effortlessly."
         },
         {
+            id:3,
             imgSrc:"img13.png",
             heading:"Incredibly Flexible",
             para:"Train an aiDR on an outbound patch, to nurture inbound leads, or to reach out to your long tail of SMB customers at renewal time."

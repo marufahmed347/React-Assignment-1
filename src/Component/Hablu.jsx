@@ -4,6 +4,8 @@ import Icon from './Icon';
 import Card from './Card';
 import Email from './Email';
 import Slider from './Slider';
+import Improvement from './Improvement';
+
 
 function Hablu() {
   return (
@@ -14,6 +16,8 @@ function Hablu() {
     <Card/>
     <Email/>
     <Slider/>
+    <Improvement/>
+    
     </div>
     </>
   )
