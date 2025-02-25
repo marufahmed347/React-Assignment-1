@@ -23,7 +23,13 @@ function Slider() {
         },
     ]
 
+
     const [currentIndex, setCurrenIndex]= useState(0)
+
+    const handleDotClick = (index) => {
+        setCurrenIndex(index)
+    };
+    
 
     const previousSlide = ()=>{
         setCurrenIndex((prevIndex)=>(prevIndex === 0 ? Slide.length -1 : prevIndex -1 ));
@@ -34,7 +40,7 @@ function Slider() {
     }
 
 
-    const { heading, nam, bio} =Slide[currentIndex]
+    const { heading, nam, bio} = Slide[currentIndex]
 
   return (
     <>
@@ -61,6 +67,13 @@ function Slider() {
                 <img src="img23.png" alt="" />
                 </button>
             </div>
+
+        </div>
+
+        <div className='flex justify-center items-center gap-5 mt-6'>
+                {Slide.map((_,index)=>(
+                    <button key={index} onClick={()=> handleDotClick(index)} className={`w-2 h-2 rounded-full ${index === currentIndex ? "bg-[#0FF1F6]" : "bg-gray-300"}`}></button>
+                ))}
         </div>
     </section>
     </>
