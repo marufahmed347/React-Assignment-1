@@ -11,7 +11,7 @@ function NavbarArea() {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <div>
-              <img src="logo.png" alt="" />
+              <NavLink to='/'><img src="logo.png" alt="" /></NavLink>
             </div>
 
             {/* Desktop Menu */}
